@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="icon" href="static/favicon.ico" />
+
+    <style>
+        body {
+            font-family: "Press Start 2P";
+        }
+
+        .nes-container {
+            margin: 10px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>#Tiny Template</h3>
+        <div class="nes-container with-title">
+            <p class="title">Your content:</p>
+            <p>
+                {{myContent}}
+            </p>
+        </div>
+        <div class="nes-container with-title">
+            <p class="title">Links:</p>
+            <a href="https://nostalgic-css.github.io/NES.css/" target="_blank">
+                Nes CSS!
+            </a>
+            <a href="https://mustache.github.io/" target="_blank">
+                Mustache!
+            </a>
+        </div>
+
+    </div>
+
+    <script>
+        console.log("{{myMessage}}")
+    </script>
+</body>
+
+</html>
